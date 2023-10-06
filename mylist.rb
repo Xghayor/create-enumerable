@@ -7,8 +7,10 @@ class MyList
     @list = list
   end
 
-  def each(&block)
-    @list.each(&block)
+  def each
+    @list.size.times do |item|
+      yield @list[item] if block_given?
+    end
   end
 end
 
