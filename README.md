@@ -74,4 +74,4 @@ We would like to express our gratitude to the contributors and anyone who uses o
 
 
 ## License
-This project is .MIT licensed.
+This project is ./LICENSE MIT licensed.
